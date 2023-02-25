@@ -6,12 +6,12 @@ Generate various classical indian music notational sequences to be used for voca
 
 ## Current Sequences
 
-- two note jumps: eg `["sr", "sg", "sm", "sp"]`
+- two note jumps `twoNoteJumps/`: eg `["sr", "sg", "sm", "sp"]`
 
 ## Current Taaths (scales)
 
-- Bilaval
-- Kalyaan
+- `bilaval`
+- `kalyaan`
 
 ## Usage
 
