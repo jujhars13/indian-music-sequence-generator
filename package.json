@@ -1,6 +1,6 @@
 {
   "name": "indian-music-sequence-generator",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Generate classical indian music notation sequences for practice",
   "main": "src.js",
   "scripts": {
