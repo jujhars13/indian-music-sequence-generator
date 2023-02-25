@@ -28,8 +28,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18.x
-          cache: npm
-          working-directory: lib
+          # cache: npm
+          # working-directory: lib
 
       - name: install deps
         working-directory: lib
