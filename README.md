@@ -1,4 +1,4 @@
-# ["sr", "sg", "sm", "sp"]
+# indian-music-sequence-generator
 
 [![Lint and test](https://github.com/jujhars13/indian-vocal-training/actions/workflows/main.yaml/badge.svg)](https://github.com/jujhars13/indian-vocal-training/actions/workflows/main.yaml)
 
