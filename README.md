@@ -1,5 +1,5 @@
 # Classical Indian Vocal Training
 
-Vocal training exercises from the classical Indian tradition
+[![Lint and test](https://github.com/jujhars13/indian-vocal-training/actions/workflows/main.yaml/badge.svg)](https://github.com/jujhars13/indian-vocal-training/actions/workflows/main.yaml)
 
-![workflow](https://github.com/github/docs/actions/workflows/mains.yml/badge.svg)
+Vocal training exercises from the classical Indian tradition

@@ -24,12 +24,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Lint
+      - name: setup nodejs
         uses: actions/setup-node@v3
-        working-directory: lib
         with:
           node-version: 18.x
           cache: npm
+          working-directory: lib
 
       - name: install deps
         working-directory: lib
