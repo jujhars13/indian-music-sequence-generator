@@ -3,10 +3,10 @@ const scales = require("../scales.js");
 /**
  * Generate a two note jump sequence
  * @access private
- *
+ * @param int number of notes to use
  * @returns a suitable sequence
  */
-const generateSequence = () => {
+const generateSequence = (numberOfNotes = 5) => {
   return [
     {
       ascent: [
@@ -24,16 +24,30 @@ const generateSequence = () => {
     },
     {
       ascent: [
-        [1, 2],
-        [1, 4],
-        [1, 3],
-        [1, 5]
+        [2, 1],
+        [2, 3],
+        [2, 4],
+        [2, 5]
       ],
       descent: [
-        [5, 1],
-        [5, 3],
-        [5, 4],
-        [5, 2]
+        [4, 5],
+        [4, 3],
+        [4, 2],
+        [4, 1]
+      ]
+    },
+    {
+      ascent: [
+        [3, 1],
+        [3, 2],
+        [3, 4],
+        [3, 5]
+      ],
+      descent: [
+        [2, 5],
+        [2, 4],
+        [2, 3],
+        [2, 1]
       ]
     }
   ];
@@ -47,7 +61,7 @@ const generateSequence = () => {
  */
 const combineSequence = (scale = "bilaval", numberOfNotes = 5) => {
   const output = [];
-  const sequences = generateSequence();
+  const sequences = generateSequence(numberOfNotes);
 
   sequences.forEach((sequence) => {
     let ascent = sequence.ascent.reduce((accumulator, current) => {

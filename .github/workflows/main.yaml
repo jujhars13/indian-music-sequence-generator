@@ -29,20 +29,16 @@ jobs:
         with:
           node-version: 18.x
           # cache: npm
-          # working-directory: lib
 
       - name: install deps
-        working-directory: lib
         run: |
           npm i
 
       - name: run linting
-        working-directory: lib
         run: |
           npm run lint
 
       - name: run unit tests
-        working-directory: lib
         run: |
           npm test
 

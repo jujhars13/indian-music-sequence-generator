@@ -1,7 +1,7 @@
 {
-  "name": "two-note-jumps",
-  "version": "1.0.0",
-  "description": "Two note jumps",
+  "name": "indian-music-sequence-generator",
+  "version": "0.0.1",
+  "description": "Generate classical indian music notation sequences for practice",
   "main": "src.js",
   "scripts": {
     "test": "jest",
