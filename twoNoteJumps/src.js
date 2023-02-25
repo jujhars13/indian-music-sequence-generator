@@ -7,6 +7,7 @@ const scales = require("../scales.js");
  * @returns a suitable sequence
  */
 const generateSequence = (numberOfNotes = 5) => {
+  console.debug({ numberOfNotes });
   return [
     {
       ascent: [
