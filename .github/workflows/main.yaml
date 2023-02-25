@@ -26,6 +26,7 @@ jobs:
 
       - name: Lint
         uses: actions/setup-node@v3
+        working-directory: lib
         with:
           node-version: 18.x
           cache: npm
@@ -44,3 +45,5 @@ jobs:
         working-directory: lib
         run: |
           npm test
+
+      - run: echo "🍏 This job's status is ${{ job.status }}."
