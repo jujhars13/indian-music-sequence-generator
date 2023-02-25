@@ -5,7 +5,8 @@
   "main": "src.js",
   "scripts": {
     "test": "jest",
-    "lint": "node_modules/.bin/eslint . --ext .js "
+    "test:watch": "jest --watchAll",
+    "lint": "node_modules/.bin/eslint . --ext .js"
   },
   "engines": {
     "node": ">=18"
